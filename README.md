@@ -4,7 +4,7 @@
 <ul>
     <li>http://localhost:8000/petugas-parkir</li>
     <li>http://localhost:8000/admin/li>
-<ul>
+</ul>
 <label>Kemudian database sudah terlampir dalam file parkirdb.sql</label>  
 
 <hr>
