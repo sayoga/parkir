@@ -1,3 +1,13 @@
+<p>Berikut jawaban test dari URL https://pastebin.com/trX7B9Gr</p>
+
+<label>Terdapat dua halaman situs parkir, masing-masing sudah memiliki route:</label>
+<ul>
+    <li>http://localhost:8000/petugas-parkir</li>
+    <li>http://localhost:8000/petugas-parkir</li>
+<ul>
+
+<hr>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
