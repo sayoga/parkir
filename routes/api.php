@@ -17,3 +17,11 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+// Grouping Throttle 60 request/minute
+Route::group(['middleware' => ['throttle:2000,1']], function () { 
+	Route::post('kendaraan_masuk', 'App\Http\Controllers\PetugasParkirController@kendaraan_masuk');
+	Route::post('kendaraan_keluar', 'App\Http\Controllers\PetugasParkirController@kendaraan_keluar');
+	Route::post('kendaraan_data', 'App\Http\Controllers\PetugasParkirController@kendaraan_data');
+});
+
