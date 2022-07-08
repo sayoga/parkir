@@ -1,9 +1,15 @@
 <p>Berikut jawaban test dari URL https://pastebin.com/trX7B9Gr</p>
 
-<label>Terdapat dua halaman situs parkir, masing-masing sudah memiliki route:</label>
+<label>Terdapat dua halaman situs parkir, masing-masing sudah memiliki route, sbb:</label>
 <ul>
     <li>http://localhost:8000/petugas-parkir</li>
     <li>http://localhost:8000/admin</li>
+</ul>
+<label>Sedangkan api terdapat tiga macam, masing-masing sudah memiliki route, sbb:</label>
+<ul>
+    <li>http://localhost:8000/api/kendaraan_masuk</li>
+    <li>http://localhost:8000/api/kendaraan_keluar</li>
+    <li>http://localhost:8000/api/kendaraan_data</li>
 </ul>
 <label>Kemudian database sudah terlampir dalam file parkirdb.sql</label>  
 
